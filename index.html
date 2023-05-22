@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Employees-form</title>
+</head>
+<body>
+    <h2> New Employees</h2>
+    <form name="myForm" onsubmit="return validateForm()">
+       <div class="wrap">
+        <div class="item">
+        <label for="name">Enter Name</label>
+        <br>
+        <br>
+        <input type="text" id="name" name="name" style="height: 25px; width: 20rem;">
+    </div>
+      
+    <div class="item">
+    <label for="profession">Enter Profession</label>
+    <br>
+    <br>
+        <input type="text" id="profession" name="profession" style="height: 25px; width: 20rem;">
+    </div>
+    
+    <div class="item">
+    <label for="age">Enter Age</label>
+    <br>
+    <br>
+        <input type="number" id="age" name="age" style="height: 25px; width: 20rem;">
+        </div>
+    </div>
+        <br>
+        <br>
+        <button type="submit" style="height: 40px; width: 12rem;">Add User</button>
+        <br>
+        <br>
+        <br>
+        <span class="error" id="error-message"></span>
+        <span class="success" id="success-message"></span>
+      
+    </form>
+    <h2>Added Employees</h2>
+    <div id="user-container">
+        You have 0 Employees.
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

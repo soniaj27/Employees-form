@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+    padding: 40px;
+}.error{
+    color:red;
+    margin-top: 50px;
+}
+.success{
+    color:green;
+    margin-top: 80px;
+}
+
+.bigemployee-box{
+    border: 1px solid white;
+    padding : 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    display: flex;
+}
+.employee-box{
+    flex :1;
+}
+
+.del-box{
+    display: flex;
+}
+#myClass{
+    margin-right: 10px;
+}
+#nama{
+   padding: 50px;
+}
+.wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
